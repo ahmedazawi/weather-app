@@ -1,0 +1,22 @@
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.big-cards {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.big-cards > div {
+  width: 300px;
+  height: 250px;
+  background-color: red;
+  padding: 15px;
+  border-radius: var(--borderRadius);
+  box-shadow: 1px 1px 15px 15px black;
+}

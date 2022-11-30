@@ -1,0 +1,42 @@
+body {
+  --primaryColor: #5e82f4;
+  --secondaryColor: #ffffff;
+  --borderRadius: 25px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  background-color: var(--primaryColor);
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 170px;
+  gap: 40px;
+}
+.App > div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.App .btn {
+  border: none;
+  border-radius: 15px;
+  color: var(--secondaryColor);
+  background-color: var(--primaryColor);
+  height: 40px;
+  width: 130px;
+  font-size: 20px;
+}
+.App .form-control {
+  border-color: var(--primaryColor);
+  border-radius: 15px;
+  height: 30px;
+  width: 330px;
+}

@@ -1,0 +1,19 @@
+.small-cards {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  justify-items: center;
+  width: 100%;
+}
+.small-cards > div {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 150px;
+  background-color: white;
+  padding: 10px;
+  border-radius: var(--borderRadius);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.small-cards > div > div:nth-child(1) {
+}

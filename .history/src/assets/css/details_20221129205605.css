@@ -1,0 +1,8 @@
+.main {
+  width: 100%;
+}
+
+.big-cards {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,26 @@
+body {
+  --primaryColor: #5e82f4;
+  --secondaryColor: #ffffff;
+  --borderRadius: 25px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  background-color: var(--primaryColor);
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 150px;
+}
+.App > .btn {
+  border: none;
+  border-radius: var(--borderRadius);
+  height: 50px;
+}

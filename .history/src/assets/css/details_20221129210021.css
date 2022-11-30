@@ -1,0 +1,16 @@
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.big-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.big-cards > div {
+  width: fit-content;
+  width: fit-content;
+}

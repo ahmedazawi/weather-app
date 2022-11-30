@@ -1,0 +1,14 @@
+body {
+  --primaryColor: #5e82f4;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  height: 50px;
+
+  background-color: var(--primaryColor);
+}
+.nav div:first-child {
+  margin-left: 7px;
+}

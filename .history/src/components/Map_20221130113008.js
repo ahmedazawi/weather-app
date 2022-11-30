@@ -1,0 +1,18 @@
+import { googleMapAPI } from "../helpers/API";
+
+const Map = () => {
+  return (
+    <div>
+      <iframe
+        title="a"
+        width="100%"
+        height="300"
+        loading="lazy"
+        allowFullScreen
+        referrerPolicy="no-referrer-when-downgrade"
+        src={`https://www.google.com/maps/embed/v1/place?key=${googleMapAPI}&q=${city}`}
+      ></iframe>
+    </div>
+  );
+};
+export default Map;

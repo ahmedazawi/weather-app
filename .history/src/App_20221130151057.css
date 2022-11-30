@@ -1,0 +1,12 @@
+body {
+  --primaryColor: #5e82f4;
+  --borderRadius: 25px;
+  height: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  background-color: var(--primaryColor);
+}

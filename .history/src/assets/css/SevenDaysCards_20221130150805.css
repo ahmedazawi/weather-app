@@ -1,0 +1,8 @@
+.small-cards {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 30px;
+  align-items: center;
+  justify-items: center;
+}
+/* .small-cards */

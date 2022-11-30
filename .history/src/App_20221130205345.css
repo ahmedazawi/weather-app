@@ -1,0 +1,17 @@
+body {
+  --primaryColor: #5e82f4;
+  --secondaryColor: #ffffff;
+  --borderRadius: 25px;
+  height: 1080px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  background-color: var(--primaryColor);
+}
+.App {
+  display: flex;
+  flex-direction: row;
+}

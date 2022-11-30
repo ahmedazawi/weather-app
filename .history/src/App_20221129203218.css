@@ -1,0 +1,11 @@
+body{
+var(--primaryColor,#5E82F4);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-left: 7px;
+  background-color: ;
+}
