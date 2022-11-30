@@ -25,7 +25,9 @@ const card = (props) => {
           </div>
         </div>
 
-        <div className="sm-cards-text">{props.data.text}</div>
+        <div className="sm-cards-text" style={{ fontWeight: "600" }}>
+          {props.data.text}
+        </div>
       </div>
     </div>
   );
